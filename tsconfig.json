@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "dist",
     "target": "es2021",
     "module": "CommonJS",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "allowJs": true,
     "paths": {
       "@customtypes/*": ["types/*"]
     }
-  }
+  },
+  "include": ["src/**/*"]
 }
