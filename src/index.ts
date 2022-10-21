@@ -8,6 +8,7 @@ const arabicToRoman: MapArabicToRoman[] = [
   { arabic: 1, roman: 'I' },
   { arabic: 5, roman: 'V' },
   { arabic: 10, roman: 'X' },
+  { arabic: 9, roman: 'IX' },
 ];
 
 export class Convertor {

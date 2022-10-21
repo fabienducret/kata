@@ -25,6 +25,10 @@ describe('Index test', () => {
     expect(Convertor.toRoman(6)).toEqual('VI');
   });
 
+  test('convert 9 to IX', () => {
+    expect(Convertor.toRoman(9)).toEqual('IX');
+  });
+
   test('convert 12 to XII', () => {
     expect(Convertor.toRoman(12)).toEqual('XII');
   });
